@@ -51,7 +51,7 @@ for page_num, page_text in enumerate(text_data):
         messages=[
             {
                 'role':'user',
-                'content':'Make up one question and a brief answer from this text:'+context+'Have standardised sections like **Question:** and **Answer:**'
+                'content':'Make up one question(on what and how) and a brief answer of 2-3 lines from this text:'+context+'Have standardised sections like **Question:** and **Answer:**'
             }
         ]
     )
